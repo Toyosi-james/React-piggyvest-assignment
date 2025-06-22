@@ -1,5 +1,5 @@
 import "./Cards.css"
-import piggyBank from "../../assets/piggybank.png"
+// import piggyBank from "../../assets/piggybank.png"
 import safeLock from "../../assets/safelock.png"
 import targetSavings from "../../assets/target.avif"
 import flexNaira from "../../assets/flex naira.avif"
@@ -26,7 +26,7 @@ const Cards = () => {
           </div>
           <div class="card-1-image">
             <h3>Piggybank</h3>
-            <img src={piggyBank} alt=""/>
+            {/* <img src={piggyBank} alt=""/> */}
           </div>
         </div>
         <div class="card-2">
