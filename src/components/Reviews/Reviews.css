@@ -1,0 +1,92 @@
+ .reviews {
+        display: flex;
+        gap: 70px;
+        padding: 0 80px;
+        
+     }  
+     .review-text{
+        margin: 100px auto;
+     }
+     .review-image img{
+        width: 500px;
+     }
+     .review1{
+        display: flex;
+     }
+     .review1 .img1 img{
+      width: 60px;
+      border-radius: 100px;
+      
+     }
+     .review1 .img2 img{
+        width: 60px;
+        border-radius: 100px;
+       }
+       .review1 .img3 img{
+        width: 60px;
+        border-radius: 100px;
+    
+       }
+       .review1 .img4 img{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+       }
+       
+       .review1 .img5 {
+        width: 60px;
+        height: 60px;
+        padding: 10px ;
+        background-color: white;
+        border-radius: 100px;
+        text-align: center;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+        color: #232c35;
+        
+
+       }
+       .review2{
+        margin-top: 30px;
+       }
+       .review2 h2{
+        font-size: 32px;
+        color: #232c35;
+         line-height: 1.5;
+       }
+       .review3 img{
+        width: 30px;
+       }
+       .review3{
+        display: flex;
+        gap: 16px;
+        margin-top: 30px;
+        cursor: pointer;
+       }
+       .review3 .review-btn1{
+        display: flex;
+        align-items: center;
+        color:#232c35;
+        gap: 6px;
+        border: 1px solid lightgrey;
+        padding: 8px;
+        border-radius: 10px;
+        
+       }
+       .review3 .review-btn1 p{
+        font-size: 15px;
+        font-weight: 700;
+
+       }
+       .review3 .review-btn2{
+        display: flex;
+        align-items: center;
+        color: #232c35;
+        gap: 6px;
+        border: 1px solid lightgrey;
+        padding: 8px;
+        border-radius: 10px;
+       }
+      .review3 .review-btn2 p{
+        font-size: 15px;
+        font-weight: 700;
+      }

@@ -1,0 +1,23 @@
+ .faq{
+    height: 40vh;
+    padding: 30px 80px;
+    border-top: 1px solid lightgrey;
+    width: 50%;
+    
+ }
+.faq p{
+    font-size: 11px;
+    line-height: 1.7;
+    
+}
+.faq1{
+margin-bottom: 30px;
+color: #232c35;
+}
+.faq2{
+    margin-bottom: 20px;
+    color: #232c35;
+}
+.faq3{
+    color:blue;
+}

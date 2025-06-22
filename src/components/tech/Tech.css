@@ -1,0 +1,37 @@
+ .tech-logo{
+        padding: 0 80px;
+        margin: 70px 0;
+     }
+     .tech-logo-image{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     }
+     
+
+    .tech-logo-text{
+        text-align: center;
+    }
+    .tech-logo-text h2{
+        font-size: 35px;
+        color: #232c35;
+    }
+.tclogo img{
+    width: 170px;
+}
+.output img{
+    width: 170px;
+}
+.techcrunch img{
+     width: 180px;
+     
+}
+.pymnts img{
+    width: 100px;
+}
+.fastcompany img{
+    width: 155px;
+}
+.cio img{
+    width: 75px;
+}

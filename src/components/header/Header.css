@@ -1,0 +1,119 @@
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: white;
+height: 90px;
+padding: 0 80px;
+cursor: pointer;
+position: sticky;
+top: 0;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+
+}
+.piggy-left{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+}
+.piggy-left ul li{
+    display: inline;
+    margin: 17px;
+    list-style: none;
+}
+.piggy-left ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+    
+    
+    
+}
+.btn .btn-1 button{
+padding:15px 10px;
+background-color: transparent;
+font-size: 17px;
+font-weight: 500;
+border: 1px solid black;
+border-radius: 10px;
+}
+.btn .btn2 button{
+    padding:15px 10px;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+    
+    
+    }
+   
+    
+@media  screen and (max-width:900px) {
+    header{
+        font-size: 15px;
+        padding: 0 70px;
+        gap: 30px;
+    }
+    .piggy-left img{
+        width: 180px;
+    }
+    .piggy-left{
+        gap: 10px;
+    }
+   .btn .btn-1 button{
+        font-size: 10px ;
+        padding: 10px;
+        /* margin: 20px; */
+    }
+    
+     .btn .btn2 button{
+        font-size: 10px;
+        padding: 10px;
+        /* margin: 20px; */
+        /* background-color: aquamarine; */
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    header{
+        font-size: 15px;
+        padding: 0 20px;
+        gap: 50px;
+        
+    }
+    .piggy-left img{
+        width: 150px;
+    }
+    .piggy-left{
+        gap: 10px;
+    }
+   .btn .btn-1 button{
+        font-size: 10px ;
+        padding: 10px;
+        /* margin: 20px; */
+    }
+    
+     .btn .btn2 button{
+        font-size: 10px;
+        padding: 10px;
+        /* margin: 20px; */
+        /* background-color: aquamarine; */
+    }
+    .piggy-left ul li{
+        display: none;
+    }
+    
+}
+

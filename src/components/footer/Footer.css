@@ -1,0 +1,51 @@
+footer{
+    padding: 70px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.first-logo img{
+    width: 200px;
+}
+.compliance img{
+    width: 140px;
+    margin: 20px;
+}
+.icons img{
+    width: 18px;
+    margin-left: 20px;
+}
+.second{
+    display: flex;
+    gap: 70px;
+    
+}
+.second h3{
+    line-height: 1.7;
+    color: #232c35;
+}
+.second p{
+    line-height: 2;
+    color: #232c35;
+    cursor: pointer;
+    font-size: 15px;
+}
+.second p:hover{
+    color: blue;
+}
+.icons{
+    text-align: right;
+    margin: 7px;
+}
+.third p{
+ line-height: 1.7;
+ text-align: right;
+ color: #232c35;
+ cursor: pointer;
+ font-size: 15px;
+}
+.third p:hover{
+    color: blue;
+}

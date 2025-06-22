@@ -1,0 +1,49 @@
+ .locked{
+        display: flex;
+        gap: 35px;
+        padding: 0 80px;
+    }
+    .locked-image img{
+        width: 30px;
+    }
+    .locked-image{
+        background-color:white;
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+        padding: 35px;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+    .locked-text h3{
+        font-size: 22px;
+        
+        margin-bottom: 20px;
+        color: #232c35;
+    }
+    .locked-text p{
+        
+        font-size: 17px;
+        color: gray;
+        line-height: 1.5;
+    }
+    .locked-text h4{
+        margin-top: 10px;
+        font-size: 18px;
+
+    }
+    .locked-text{
+        width: 70%;
+    }
+    @media screen and(max-width:600px) {
+         .locked{
+            flex-direction: column;
+            padding: 20px;
+            align-items: center;
+            margin-top: 0;   
+        }
+    
+        .locked-text{
+            text-align: center;
+            width: 50%;
+        }
+    }
